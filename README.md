@@ -14,7 +14,11 @@ You can assign constraints to a trigger to restrict the execution of a macro. A 
 at 6am in the morning, but only on Mondays through Fridays. A more advanced example would be an autoplay functionality with
 different audio sources played at different times of day (news radio station in the morning, music playlist in the evening).
 
-### Macro Steps
+### Macros
+
+A macro is a sequence of macro steps, executed one after the other.
+
+#### Macro Steps
 
 Currently, the following macro steps are available:
 
@@ -26,3 +30,24 @@ Currently, the following macro steps are available:
 - Play Queue
 - Pause
 - Stop
+
+### Triggers
+
+A trigger is an association of a trigger type with a macro to be executed. Furthermore, constraints can be assigned to a trigger
+to restrict the execution of a macro.
+
+#### Trigger Types
+
+Currently, the following trigger types are available:
+
+- Alarm
+- Autoplay
+- IP Detection
+
+#### Trigger Constraints
+
+Currently, the following trigger constraints are available:
+
+- Weekday
+- Timespan
+- Output Online
