@@ -27,8 +27,15 @@ Currently, the following macro steps are available:
   Parameters:   
   *Output*: The output for which the volume is to be set.   
   *Volume*: The volume value, something valid between min and max volume.
-- Play
-- Play Queue
+- **Play**   
+  Presses the play button of an output (or the associated zone), if play is possible.
+  No source is selected, just plays what is currently loaded into the output/zone.   
+  Parameters:   
+  *Output*: The output for which the play button is to be pressed.
+- **Play Queue**   
+  Plays the current queue of an output/zone, if there is something already loaded into the queue.   
+  Parameters:   
+  *Output*: The output for which the current queue should be played.
 - Play Radio
 - Play Playlist
 - Pause
