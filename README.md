@@ -16,10 +16,11 @@ different audio sources played at different times of day (news radio station in 
 
 ### Macros
 
-A macro is a sequence of macro steps, executed one after the other.
+A macro is a sequence of macro steps, executed one after the other. Each macro has a unique ID. You will need the ID if you want
+to send an http GET request to run a macro (Run URL).
 
 Example:
-![Macro Example](/Images/macro_example.png)
+![Macro Example](./Images/macro_example.png)
 
 #### Macro Steps
 
