@@ -22,14 +22,18 @@ A macro is a sequence of macro steps, executed one after the other.
 
 Currently, the following macro steps are available:
 
-- Wait
-- Set Volume
+- **Set Volume**    
+  Sets the volume of an output, only available for outputs with absolute volume values.   
+  Parameters:   
+  *Output*: The output for which the volume is to be set.   
+  *Volume*: The volume value, something valid between min and max volume.
 - Play
+- Play Queue
 - Play Radio
 - Play Playlist
-- Play Queue
 - Pause
 - Stop
+- Wait
 
 ### Triggers
 
