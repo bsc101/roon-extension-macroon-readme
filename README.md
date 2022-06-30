@@ -18,6 +18,9 @@ different audio sources played at different times of day (news radio station in 
 
 A macro is a sequence of macro steps, executed one after the other.
 
+Example:
+![Macro Example](/Images/macro_example.png)
+
 #### Macro Steps
 
 Currently, the following macro steps are available:
