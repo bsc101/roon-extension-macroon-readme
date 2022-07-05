@@ -17,7 +17,8 @@ different audio sources played at different times of day (news radio station in 
 ### Macros
 
 A macro is a sequence of macro steps, executed one after the other. Each macro has a unique ID. You will need the ID if you want
-to send an http GET request to run a macro (Run URL).
+to send an http GET request to run a macro (Run URL). As a test, just copy the 'Run URL' into the address bar of your browser and
+press enter.
 
 Example:
 ![Macro Example](./Images/macro_example.png)
@@ -70,6 +71,8 @@ Currently, the following macro steps are available:
 A trigger is an association of a trigger type with a macro to be executed. Furthermore, constraints can be assigned to a trigger
 to restrict the execution of a macro.
 
+Example:
+
 #### Trigger Types
 
 Currently, the following trigger types are available:
@@ -85,3 +88,6 @@ Currently, the following trigger constraints are available:
 - Weekday
 - Timespan
 - Output Online
+
+## Installation
+
