@@ -42,9 +42,16 @@ Currently, the following macro steps are available:
   *Output*: The output for which the current queue should be played.
 - Play Radio
 - Play Playlist
-- Pause
+- **Pause**   
+  Pauses the playback of the specified output/zone.   
+  Parameters:   
+  *Output*: The output for which playback should be paused.
 - Stop
-- Wait
+- **Wait**   
+  Waits for the specified period of time.   
+  Parameters:   
+  *DelaySeconds*: Seconds to wait.   
+  *DelayMilliSeconds*: Milliseconds to wait.
 
 ### Triggers
 
