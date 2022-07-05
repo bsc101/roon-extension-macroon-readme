@@ -40,13 +40,25 @@ Currently, the following macro steps are available:
   Plays the current queue of an output/zone, if there is something already loaded into the queue.   
   Parameters:   
   *Output*: The output for which the current queue should be played.
-- Play Radio
-- Play Playlist
+- **Play Radio**   
+  Plays an internet radio station on the specified output/zone.   
+  Parameters:   
+  *Output*: The output for which the radio station should be played.   
+  *Source*: The name of the radio station.
+- **Play Playlist**   
+  Plays a playlist on the specified output/zone.   
+  Parameters:   
+  *Output*: The output for which the playlist should be played.   
+  *Source*: The name of the playlist.   
+  *Action*: The action to perform (shuffle, ...)
 - **Pause**   
   Pauses the playback of the specified output/zone.   
   Parameters:   
   *Output*: The output for which playback should be paused.
-- Stop
+- **Stop**   
+  Stops the playback of the specified output/zone.   
+  Parameters:   
+  *Output*: The output for which playback should be stopped.
 - **Wait**   
   Waits for the specified period of time.   
   Parameters:   
