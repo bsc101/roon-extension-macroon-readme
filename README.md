@@ -71,14 +71,21 @@ Currently, the following macro steps are available:
 A trigger is an association of a trigger type with a macro to be executed. Furthermore, constraints can be assigned to a trigger
 to restrict the execution of a macro.
 
-Example:
+Example:   
+![Trigger Example](./Images/trigger_example.png)
 
 #### Trigger Types
 
 Currently, the following trigger types are available:
 
-- Alarm
-- Autoplay
+- **Alarm**   
+  An alarm trigger is executed at a specified time.   
+  Parameters:   
+  *Time*: A time between 00:00 and 23:59.
+- **Autoplay**   
+  An autoplay trigger is executed when a Roon output (endpoint) gets available (e.g. after powering on some device).   
+  Parameters:   
+  *Output*: The output to be monitored for availability.
 - IP Detection
 
 #### Trigger Constraints
