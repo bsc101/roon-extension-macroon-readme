@@ -83,10 +83,13 @@ Currently, the following trigger types are available:
   Parameters:   
   *Time*: A time between 00:00 and 23:59.
 - **Autoplay**   
-  An autoplay trigger is executed when a Roon output (endpoint) gets available (e.g. after powering on some device).   
+  An autoplay trigger is executed as soon as a Roon output (endpoint) gets available (e.g. after powering on some device).   
   Parameters:   
   *Output*: The output to be monitored for availability.
-- IP Detection
+- **IP Detection**   
+  An IP detection trigger is executed as soon as one can ping an IP address successfully.   
+  Parameters:   
+  
 
 #### Trigger Constraints
 
