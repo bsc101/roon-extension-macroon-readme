@@ -91,8 +91,11 @@ Currently, the following trigger types are available:
   If an IP is pingable, it is assumed 'online', otherwise it is assumed 'offline'.
   Parameters:   
   *IP Address*: The IP address to ping.   
-  *Min Seconds Online*: Minimum time period in seconds during which the state 'online' is held.   
-  *Min Seconds Offline*:
+  *Min Seconds Online*: Minimum time period in seconds during which the state 'online' is held. After the last successful ping, the software
+  waits this time period before switching to 'offline' (to prevent switching to 'offline' just because one single ping fails).  
+  *Min Seconds Offline*: Minimum time period in seconds during which the state 'offline' is held.
+
+Parameters for all trigger types:
 
 #### Trigger Constraints
 
