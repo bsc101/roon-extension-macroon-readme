@@ -87,9 +87,12 @@ Currently, the following trigger types are available:
   Parameters:   
   *Output*: The output to be monitored for availability.
 - **IP Detection**   
-  An IP detection trigger is executed as soon as one can ping an IP address successfully.   
+  An IP detection trigger is executed as soon as one can ping an IP address successfully. The software tries to ping the IP every 5 seconds.
+  If an IP is pingable, it is assumed 'online', otherwise it is assumed 'offline'.
   Parameters:   
-  
+  *IP Address*: The IP address to ping.   
+  *Min Seconds Online*: Minimum time period in seconds during which the state 'online' is held.   
+  *Min Seconds Offline*:
 
 #### Trigger Constraints
 
