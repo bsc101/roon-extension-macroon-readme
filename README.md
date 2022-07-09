@@ -95,7 +95,10 @@ Currently, the following trigger types are available:
   waits this time period before switching to 'offline' (to prevent switching to 'offline' just because one single ping fails).  
   *Min Seconds Offline*: Minimum time period in seconds during which the state 'offline' is held.
 
-Parameters for all trigger types:
+Parameters common to all trigger types:
+
+*Macro*: The macro to execute when the trigger conditions are met and the trigger is executed.   
+*Delay*: Wait the specified time period before executing the macro.
 
 #### Trigger Constraints
 
