@@ -119,3 +119,18 @@ Currently, the following trigger constraints are available:
 
 ## Installation
 
+Installation steps:
+
+- Please download the application (zip archive) matching your target platform from here:   
+  [https://bsc101.eu/downloads/macroon/roon-extension-macroon/](https://bsc101.eu/downloads/macroon/roon-extension-macroon/)   
+  Let me know if your target platform is missing.
+- Unzip the archive to some directory below your user directory. The application needs write access to the working directory
+  (the directory from where the application is started) to be able to save configuration files.
+- Open a terminal/command line and change directory to the directory with the extracted files. The content of this directory
+  should typically look like this:   
+  ![Files](./Images/macroon-files.png)
+- The file *roon-extension-macroon[.exe]* is the executable file. Just run it from command line.
+
+---
+
+mailto: dev@bsc101.eu
