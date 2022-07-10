@@ -135,8 +135,10 @@ Installation steps:
 - Go to the Settings page and select your Roon core:   
   ![Settings](./Images/macroon-settings.png)
 - Open a Roon remote and go to Settings/Extensions. Enable the **macro.on** extension.
-- Go back to the **macro.on** web interface and start creating macros and triggers :)   
+- Go back to the **macro.on** web interface and start creating macros and triggers:   
   ![Edit Macro](./Images/edit-macro.png)
+- Run your macros manually directly from the Home page:   
+  ![Your Macros](./Images/your-macros.png)
 
 ---
 
