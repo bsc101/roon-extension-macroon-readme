@@ -69,7 +69,7 @@ Currently, the following macro steps are available:
 ### Triggers
 
 A trigger is an association of a trigger type with a macro to be executed. Furthermore, constraints can be assigned to a trigger
-to restrict the execution of a macro.
+to restrict the execution of a macro. Multiple constraints are combined using the logical *and* operator.
 
 Example:   
 ![Trigger Example](./Images/trigger_example.png)
@@ -103,9 +103,19 @@ Parameters common to all trigger types:
 
 Currently, the following trigger constraints are available:
 
-- Weekday
-- Timespan
-- Output Online
+- **Weekday**   
+  Executes the trigger only on the specified days of week.   
+  Parameters:   
+  - *Weekday*: Monday, Tuesday, ...
+- **Timespan**   
+  Executes the trigger only in the specified time period.   
+  Parameters:   
+  - *After*: A time between 00:00 and 23:59.
+  - *Before*: A time between 00:00 and 23:59.
+- **Output Online**   
+  Executes the trigger only if the specified output is online (output is available as Roon endpoint).   
+  Parameters:   
+  - *Output*: The output which must be online.
 
 ## Installation
 
