@@ -30,41 +30,41 @@ Currently, the following macro steps are available:
 - **Set Volume**    
   Sets the volume of an output, only available for outputs with absolute volume values.   
   Parameters:   
-  *Output*: The output for which the volume is to be set.   
-  *Volume*: The volume value, something valid between min and max volume.
+  - *Output*: The output for which the volume is to be set.   
+  - *Volume*: The volume value, something valid between min and max volume.
 - **Play**   
   Presses the play button of an output (or the associated zone), if play is possible.
   No source is selected, just plays what is currently loaded into the output/zone.   
   Parameters:   
-  *Output*: The output for which the play button is to be pressed.
+  - *Output*: The output for which the play button is to be pressed.
 - **Play Queue**   
   Plays the current queue of an output/zone, if there is something already loaded into the queue.   
   Parameters:   
-  *Output*: The output for which the current queue should be played.
+  - *Output*: The output for which the current queue should be played.
 - **Play Radio**   
   Plays an internet radio station on the specified output/zone.   
   Parameters:   
-  *Output*: The output for which the radio station should be played.   
-  *Source*: The name of the radio station.
+  - *Output*: The output for which the radio station should be played.   
+  - *Source*: The name of the radio station.
 - **Play Playlist**   
   Plays a playlist on the specified output/zone.   
   Parameters:   
-  *Output*: The output for which the playlist should be played.   
-  *Source*: The name of the playlist.   
-  *Action*: The action to perform (shuffle, ...)
+  - *Output*: The output for which the playlist should be played.   
+  - *Source*: The name of the playlist.   
+  - *Action*: The action to perform (Shuffle, Play Now, ...)
 - **Pause**   
   Pauses the playback of the specified output/zone.   
   Parameters:   
-  *Output*: The output for which playback should be paused.
+  - *Output*: The output for which playback should be paused.
 - **Stop**   
   Stops the playback of the specified output/zone.   
   Parameters:   
-  *Output*: The output for which playback should be stopped.
+  - *Output*: The output for which playback should be stopped.
 - **Wait**   
   Waits for the specified period of time.   
   Parameters:   
-  *DelaySeconds*: Seconds to wait.   
-  *DelayMilliSeconds*: Milliseconds to wait.
+  - *DelaySeconds*: Seconds to wait.   
+  - *DelayMilliSeconds*: Milliseconds to wait.
 
 ### Triggers
 
@@ -81,23 +81,23 @@ Currently, the following trigger types are available:
 - **Alarm**   
   An alarm trigger is executed at a specified time.   
   Parameters:   
-  *Time*: A time between 00:00 and 23:59.
+  - *Time*: A time between 00:00 and 23:59.
 - **Autoplay**   
   An autoplay trigger is executed as soon as a Roon output (endpoint) gets available (e.g. after powering on some device).   
   Parameters:   
-  *Output*: The output to be monitored for availability.
+  - *Output*: The output to be monitored for availability.
 - **IP Detection**   
   An IP detection trigger is executed as soon as one can ping an IP address successfully. The software tries to ping the IP every 5 seconds.
   If an IP is pingable, it is assumed 'online', otherwise it is assumed 'offline'.   
   Parameters:   
-  | *IP Address* | The IP address to ping. |
-  *Min Seconds Online*: Minimum time period in seconds during which the state 'online' is held. After the last successful ping, the software
-  waits this time period before switching to 'offline' (to prevent switching to 'offline' just because one single ping fails).  
-  *Min Seconds Offline*: Minimum time period in seconds during which the state 'offline' is held.
+  - *IP Address*: The IP address to ping.
+  - *Min Seconds Online*: Minimum time period in seconds during which the state 'online' is held. After the last successful ping, the software
+    waits this time period before switching to 'offline' (to prevent switching to 'offline' just because one single ping fails).  
+  - *Min Seconds Offline*: Minimum time period in seconds during which the state 'offline' is held.
 
 Parameters common to all trigger types:   
-*Macro*: The macro to execute when the trigger conditions are met and the trigger is executed.   
-*Delay*: Wait the specified time period before executing the macro.
+- *Macro*: The macro to execute when the trigger conditions are met and the trigger is executed.   
+- *Delay*: Waits the specified time period before executing the macro.
 
 #### Trigger Constraints
 
