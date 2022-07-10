@@ -130,6 +130,13 @@ Installation steps:
   should typically look like this:   
   ![Files](./Images/macroon-files.png)
 - The file *roon-extension-macroon[.exe]* is the executable file. Just run it from command line.
+- **macro.on** comes with a web interface. You can reach it at the following address:   
+  http://*localhost*:8180/ or http://*ip_address_of_the_machine_running_macroon*:8180/
+- Go to the Settings page and select your Roon core:   
+  ![Settings](./Images/macroon-settings.png)
+- Open a Roon remote and go to Settings/Extensions. Enable the **macro.on** extension.
+- Go back to the **macro.on** web interface and start creating macros and triggers :)   
+  ![Edit Macro](./Images/edit-macro.png)
 
 ---
 
