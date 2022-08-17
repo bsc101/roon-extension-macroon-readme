@@ -52,6 +52,11 @@ Currently, the following macro steps are available:
   - *Output*: The output for which the playlist should be played.   
   - *Source*: The name of the playlist.   
   - *Action*: The action to perform (Shuffle, Play Now, ...)
+- **Play Tag**   
+  Plays/Shuffles all tracks tagged with the specified tag on the specified output/zone.   
+  Parameters:   
+  - *Output*: The output for which the tagged tracks should be played.   
+  - *Tag*: The name of the tag.
 - **Pause**   
   Pauses the playback of the specified output/zone.   
   Parameters:   
@@ -125,7 +130,9 @@ Installation steps:
   [https://bsc101.eu/downloads/macroon/roon-extension-macroon/](https://bsc101.eu/downloads/macroon/roon-extension-macroon/)   
   Let me know if your target platform is missing.
 - Unzip the archive to some directory below your user directory. The application needs write access to the working directory
-  (the directory from where the application is started) to be able to save configuration files.
+  (the directory from where the application is started) to be able to save configuration files. When updating, keep the
+  configuration files (the 'data' folder with the config.json and automation.json files) and replace all other files with the
+  new version.
 - Open a terminal/command line and change directory to the directory with the extracted files. The content of this directory
   should typically look like this:   
   ![Files](./Images/macroon-files.png)
