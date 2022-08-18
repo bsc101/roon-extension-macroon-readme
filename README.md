@@ -14,6 +14,8 @@ You can assign constraints to a trigger to restrict the execution of a macro. A 
 at 6am in the morning, but only on Mondays through Fridays. A more advanced example would be an autoplay functionality with
 different audio sources played at different times of day (news radio station in the morning, music playlist in the evening).
 
+See below for installation instructions.
+
 ### Macros
 
 A macro is a sequence of macro steps, executed one after the other. Each macro has a unique ID. You will need the ID if you want
@@ -128,7 +130,10 @@ Installation steps:
 
 - Please download the application (zip archive) matching your target platform from here:   
   [https://bsc101.eu/downloads/macroon/roon-extension-macroon/](https://bsc101.eu/downloads/macroon/roon-extension-macroon/)   
-  Let me know if your target platform is missing.
+  Let me know if your target platform is missing.   
+  If you prefer using a docker, you can find the image and running instructions here:   
+  [https://hub.docker.com/r/bsc101/roon-extension-macroon](https://hub.docker.com/r/bsc101/roon-extension-macroon)   
+  If you use the docker approach, you can skip the next three steps.
 - Unzip the archive to some directory below your user directory. The application needs write access to the working directory
   (the directory from where the application is started) to be able to save configuration files. When updating, keep the
   configuration files (the 'data' folder with the config.json and automation.json files) and replace all other files with the
