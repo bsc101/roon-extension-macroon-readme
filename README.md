@@ -131,7 +131,7 @@ Installation steps:
 - Please download the application (zip archive) matching your target platform from here:   
   [https://bsc101.eu/downloads/macroon/roon-extension-macroon/](https://bsc101.eu/downloads/macroon/roon-extension-macroon/)   
   Let me know if your target platform is missing.   
-  If you prefer using a docker, you can find the image and running instructions here:   
+  If you prefer using docker, you can find the image and running instructions here:   
   [https://hub.docker.com/r/bsc101/roon-extension-macroon](https://hub.docker.com/r/bsc101/roon-extension-macroon)   
   If you use the docker approach, you can skip the next three steps.
 - Unzip the archive to some directory below your user directory. The application needs write access to the working directory
