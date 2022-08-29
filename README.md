@@ -72,6 +72,16 @@ Currently, the following macro steps are available:
   Parameters:   
   - *DelaySeconds*: Seconds to wait.   
   - *DelayMilliSeconds*: Milliseconds to wait.
+- **Group Outputs**   
+  Creates a group of synchronized audio outputs.   
+  Parameters:   
+  - *Output*: First output of the group. The queue of this output is preserved.   
+  - *OutputOther*: Output to group with the first output, or 'All' to group all outputs with the same protocol as the first output (RAAT, Sonos, Chromecast, ...).
+- **Ungroup Outputs**   
+  Ungroups grouped outputs.   
+  Parameters:   
+  - *Output*: The output to ungroup.   
+  - *All*: If set, all outputs with the same protocol as *Output* are ungrouped.
 
 ### Triggers
 
