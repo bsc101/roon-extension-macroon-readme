@@ -34,6 +34,12 @@ Currently, the following macro steps are available:
   Parameters:   
   - *Output*: The output for which the volume is to be set.   
   - *Volume*: The volume value, something valid between min and max volume.
+- **Set Volume Relative**   
+  Increases or decreases the volume of an output, only available for outputs with absolute volume values.   
+  Parameters:   
+  - *Output*: The output for which the volume is to be set.   
+  - *Volume Change*: The volume value to be added to the current volume value, can be a positive or a negative value.   
+  - *Duration Seconds*: The duration of the volume change. Specify a value > 0 if you want a smooth volume change (fade in, fade out).
 - **Play**   
   Presses the play button of an output (or the associated zone), if play is possible.
   No source is selected, just plays what is currently loaded into the output/zone.   
