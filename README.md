@@ -113,10 +113,11 @@ Currently, the following trigger types are available:
   An IP detection trigger is executed as soon as one can ping an IP address successfully. The software tries to ping the IP every 5 seconds.
   If an IP is pingable, it is assumed 'online', otherwise it is assumed 'offline'.   
   Parameters:   
-  - *IP Address*: The IP address to ping.
+  - *IP Address*: The IP address(es) to ping. You can specify multiple IPs separated by a semicolon.   
   - *Min Seconds Online*: Minimum time period in seconds during which the state 'online' is held. After the last successful ping, the software
-    waits this time period before switching to 'offline' (to prevent switching to 'offline' just because one single ping fails).  
-  - *Min Seconds Offline*: Minimum time period in seconds during which the state 'offline' is held.
+    waits this time period before switching to 'offline' (to prevent switching to 'offline' just because one single ping fails).   
+  - *Min Seconds Offline*: Minimum time period in seconds during which the state 'offline' is held.   
+  - *Trigger Offline*: If checked, the trigger is raised when the state changes from 'online' to 'offline' (instead of 'offline' to 'online').
 
 Parameters common to all trigger types:   
 - *Macro*: The macro to execute when the trigger conditions are met and the trigger is executed.   
